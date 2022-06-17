@@ -5,7 +5,7 @@ Technologies
 Node.js Express MongoDB @ 2.2.33 es6 Nodemon middleware
 
 Steps to Setup
-** Install dependencies npm install Run start nodemon server.js You can browse the apis at https://floating-chamber-02341.herokuapp.com/
+** Install dependencies npm install Run start nodemon server.js You can browse the apis at https://nodejstodo1.herokuapp.com/todos
 
 CRUD - Post (POSt)
 Whenever we visit a website the browser sends a post request to the server to perform a operation. This is why we are seeing the "cannot post/" error, it's trying to GET but we're not GIVING (not a real term) yet - because have nothing to send back at the moment. To handle GET requests we use the get method:
